@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Taxes</title>
+    <link rel="stylesheet" href="landstyles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Freelancer Tax Compliance</h1>
+        <p>Select a tax to upload your documents.</p>
+
+        <!-- Tax Cards Section -->
+        <div id="tax-cards-section" class="tax-cards-section">
+            <div class="tax-cards-container" id="tax-cards-container"></div>
+        </div>
+
+        <!-- Upload Section -->
+        <div id="upload-section" class="upload-section" style="display: none;">
+            <h2>Upload Your Documents</h2>
+            <p id="document-message"></p>
+            <input type="file" id="upload-documents" multiple>
+            <button id="submit-btn">Submit</button>
+
+            <!-- Back button for Upload page -->
+            <button id="back-btn" class="navigation-btn">Back to Taxes</button>
+        </div>
+    </div>
+
+    <script src="freelancer.js"></script>
+</body>
+</html>

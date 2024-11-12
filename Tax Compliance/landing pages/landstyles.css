@@ -1,0 +1,207 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #1f1f1f; /* Text color */
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Title and paragraph */
+h1 {
+    font-size: 2.5em;
+    color: #00204a; /* Primary2 color */
+}
+
+p {
+    color: #555; /* Lighter text color */
+}
+
+/* Card styles */
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.card {
+    background-color: #ffffff; /* White background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 25%;
+    text-align: center;
+    border: 2px solid #f4f7fa; /* Light border */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+    border-color: #00bbf0; /* Highlight with Primary1 on hover */
+}
+
+.card h3 {
+    color: #00204a; /* Primary2 color */
+    font-size: 1.5em;
+}
+
+.card p {
+    color: #777; /* Lighter text color */
+}
+
+/* Tax card styles */
+.tax-cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.tax-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    border: 2px solid #f4f7fa;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tax-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+    border-color: #00bbf0;
+}
+
+.tax-card h4 {
+    color: #00204a; /* Primary2 color */
+    font-size: 1.2em;
+}
+
+.tax-card p {
+    color: #777;
+}
+
+/* Upload section */
+.upload-section {
+    display: none;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#upload-documents {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#submit-btn {
+    padding: 10px 20px;
+    background-color: #00bbf0; /* Primary1 color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit-btn:hover {
+    background-color: #00204a; /* Primary2 color */
+}
+
+.navigation-btn {
+    padding: 10px 20px;
+    background-color: #00bbf0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.navigation-btn:hover {
+    background-color: #00204a;
+}
+
+/* Tax card styles */
+.tax-cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.tax-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    border: 2px solid #f4f7fa;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tax-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+    border-color: #00bbf0;
+}
+
+.tax-card h4 {
+    color: #00204a; /* Primary2 color */
+    font-size: 1.2em;
+}
+
+.tax-card p {
+    color: #777;
+}
+
+/* Make sure the upload section has relative positioning */
+.upload-section {
+    position: relative; /* Allows absolute positioning of child elements */
+    padding-bottom: 50px; /* Add some space at the bottom for the button */
+}
+
+/* Position the back button at the bottom of the upload section */
+#back-btn {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom of the section */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Ensure it's truly centered */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Optional: Styling for when the back button is hovered */
+#back-btn:hover {
+    background-color: #45a049;
+}
+
+

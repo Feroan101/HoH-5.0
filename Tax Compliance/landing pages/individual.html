@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Compliance Audit - Individual</title>
+    <link rel="stylesheet" href="landstyles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Individual Tax Compliance</h1>
+        <p>Select the tax category you want to proceed with</p>
+
+        <!-- Tax Cards Section -->
+        <div id="tax-cards-section" class="tax-cards-section">
+            <div class="tax-cards-container" id="tax-cards-container"></div>
+        </div>
+
+        <!-- Upload Section -->
+        <div id="upload-section" class="upload-section" style="display: none;">
+            <h2>Upload Your Documents</h2>
+            <p id="document-message"></p>
+            <input type="file" id="upload-documents" multiple>
+            <button id="submit-btn">Submit</button>
+        </div>
+    </div>
+
+    <script src="individual.js"></script>
+</body>
+</html>
